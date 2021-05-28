@@ -10,7 +10,7 @@ class Question(models.Model):
 
     def __str__(self):
         return self.question_text
-
+ 
     @admin.display(
         boolean=True,
         ordering='pub_date',

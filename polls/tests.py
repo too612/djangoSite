@@ -102,7 +102,7 @@ class QuestionModelTests(TestCase):
                 response.context['latest_question_list'],
                 [question2, question1],
             )
-            
+             
     class QuestionDetailViewTests(TestCase):
         def test_future_question(self):
             """
